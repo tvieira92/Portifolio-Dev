@@ -1,3 +1,69 @@
-.grid {}
+.grid {
+    display: grid
+}
 
-.grid-flow-col {}
+.grid-flow-col {
+    grid-auto-flow: column;
+    
+}
+
+.container {
+    display: block;
+    width: 1040px;
+    margin-inline: auto;
+    
+}
+
+main {
+    margin-block: 120px;
+    text-align: center;
+    
+
+}
+
+.profile {
+    margin-bottom: 56px;
+    
+    
+    img:nth-child(1) {
+        margin: auto;
+        border-radius: 50%;
+        width: 87px;  
+        height: 87px;
+        object-fit: cover;
+        
+        
+    }
+    img:nth-child(2) {
+        width: 32px;
+        height: 32px;
+        margin: auto;
+    }
+}
+
+#socialmedias {
+    margin-top: 80px;
+
+}
+
+.arrow {
+    margin-top: 99px;
+}
+
+h1, h2, h3 {
+    font: inherit;
+}
+
+.title-lg {
+    font: var(--h1);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.text-span {
+    font: var(--text-span);
+}
+
+
