@@ -6,6 +6,7 @@
 
 :root {
     --bg-color: #0D0E11;
+    --box-social: #292C34;
     --text-color-primary: #E2E4E9;
     --text-color-secondary: #C0C4CE;
     --text-color-tertiary: #878EA1;
@@ -45,10 +46,10 @@ img {
 
 .content-tag {
     display: inline-block;
-    background-color: var(--text-color-secondary);
-    padding: 4px 8px;
+    background-color: var(--box-social);
+    margin: 16px;
     border-radius: 60px;
-    font: 500 10px/1.2 var(--font-family);
+    font: var(--font-family);
     letter-spacing: 0.04em;
     color: var(--text-color-primary);
 }
