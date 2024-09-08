@@ -47,10 +47,9 @@ img {
 .content-tag {
     display: inline-block;
     background-color: var(--box-social);
-    margin: 16px;
+    margin: 12px;
     border-radius: 60px;
     font: var(--font-family);
-    letter-spacing: 0.04em;
     color: var(--text-color-primary);
 }
 
