@@ -1,0 +1,9 @@
+#socialmedias {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+    img:nth-child (2) {
+        color: var (--text-main-red)
+    }
+}
