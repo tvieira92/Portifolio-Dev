@@ -23,7 +23,8 @@ main {
     margin-block: 120px;
     
     p {
-        text-align: left;
+        margin: auto;
+        width: 760px;
         padding: 30px;
 
     }
