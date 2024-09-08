@@ -14,9 +14,19 @@
     
 }
 
+#primary {
+    text-align: center;
+    
+}
+
 main {
     margin-block: 120px;
-    text-align: center;
+    
+    p {
+        text-align: left;
+        padding: 30px;
+
+    }
     
 
 }
@@ -31,10 +41,14 @@ main {
         width: 87px;  
         height: 87px;
         object-fit: cover;
+        border: 2px solid;
+        border-color: var(--text-main-red);
         
         
     }
     img:nth-child(2) {
+        position: relative;
+        right: 35px;
         width: 32px;
         height: 32px;
         margin: auto;
@@ -48,7 +62,8 @@ main {
 
 .arrow {
     margin-top: 99px;
-}
+    
+    }
 
 h1, h2, h3 {
     font: inherit;
