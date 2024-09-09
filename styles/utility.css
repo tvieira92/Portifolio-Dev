@@ -23,7 +23,18 @@
     width: 1040px;
     margin-inline: auto;
     text-align: center;
+    
 }
+
+.container-3 {
+    display: grid;
+    width: 900px;
+    margin: auto;
+    margin-inline: auto;
+    text-align: center;
+    
+}
+
 
 .gap-24 {
     gap: 24px;

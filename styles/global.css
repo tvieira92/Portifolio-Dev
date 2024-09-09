@@ -6,6 +6,7 @@
 
 :root {
     --bg-color: #0D0E11;
+    --bg-color2: #16181D;
     --box-social: #292C34;
     --text-color-primary: #E2E4E9;
     --text-color-secondary: #C0C4CE;
@@ -31,7 +32,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color2);
     color: var(--text-color-primary);
     font: var(--text);
     
@@ -61,3 +62,11 @@ img {
     color: var(--text-color-primary);
 }
 
+.content-tag-3 {
+    display:inline-block;
+    padding: 20px 20px;
+    border: 2px solid var(--box-social);
+    border-radius: 12px;
+    font: var(--font-family-1);
+    color: var(--text-color-primary);
+}

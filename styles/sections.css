@@ -30,6 +30,8 @@
     padding-top: 72px;
     padding-bottom: 144px;
     
+    
+    
     img {
         width: 306px;
         height: 156px;
@@ -51,4 +53,36 @@
         
     }
     
+}
+
+#services {
+    display: grid;
+    text-align: center;
+    padding-top: 88px;
+    background-color: var(--bg-color);
+
+    .title-services {
+        display: inline-block;
+        padding-bottom: 56px;
+        text-align: center;
+    }
+
+    img {
+        align-items: center;
+        position: relative;
+        right: 95px;
+        padding-bottom: 20px;
+    }
+
+    h3 {
+        display: flex;
+    }
+
+    span {
+        display: flex;
+    }
+
+
+
+
 }
