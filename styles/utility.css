@@ -7,6 +7,10 @@
     
 }
 
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .container {
     display: block;
     width: 1040px;
@@ -14,20 +18,16 @@
     
 }
 
-#primary {
-    text-align: center;
-    
+.gap-24 {
+    gap: 24px;
 }
+
+
 
 main {
     margin-block: 120px;
     
-    p {
-        margin: auto;
-        width: 760px;
-        padding: 30px;
-
-    }
+    
     
 
 }
@@ -63,6 +63,7 @@ main {
 
 .arrow {
     margin-top: 99px;
+    margin-bottom: 120px;
     
     }
 
@@ -72,6 +73,14 @@ h1, h2, h3 {
 
 .title-lg {
     font: var(--h1);
+}
+
+.title-md {
+    font: var(--h2);
+}
+
+.title-sm {
+    font: var(--h3);
 }
 
 .text-sm {

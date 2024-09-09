@@ -1,5 +1,51 @@
+#primary {
+    text-align: center;
+    
+    p {
+        margin: auto;
+        width: 760px;
+        padding: 30px;
+
+    }
+    
+    
+    
+    
+}
+
 #socialmedias {
-    display: flex;
-    align-items: center;
-   
+   align-items: center;
+}
+
+
+
+#work {
+    padding-top: 72px;
+    padding-bottom: 144px;
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+    
+}
+
+#work {
+    h3 {
+        display: flex;
+        position: relative;
+        padding: 5px;
+    }
+
+    
+}
+
+#work {
+    span {
+        display: flex;
+        position: relative;
+        
+        
+    }
 }

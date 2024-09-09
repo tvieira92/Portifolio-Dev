@@ -21,22 +21,22 @@
     --font-family-3: "Maven Pro", sans-serif;
 
     --h1: 600 56px/120% var(--font-family-1);
-    --h2: 1040 24px/120% var(--font-family-1);
-    --h3: 298 16px/120% var(--font-family-1);
+    --h2: 600 24px/120% var(--font-family-1);
+    --h3: 600 16px/120% var(--font-family-1);
 
-    --text-span: 200 20px/120% var(--font-family-2);
+    --text-span: 20px/120% var(--font-family-2);
 
     --text: 420 16px/140% var(--font-family-3);
     --text-sm: 400 14px/140% var(--font-family-3)
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--box-social);
+    color: var(--text-color-primary);
+    font: var(--text);
     background-image: url(../assets/images/Background_Intro.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--text-color-primary);
-    font: var(--text);
 
 }
 
@@ -46,10 +46,20 @@ img {
 
 .content-tag {
     display: inline-block;
+    padding: 8px 16px 8px 16px;
     background-color: var(--box-social);
     margin: 12px;
     border-radius: 60px;
     font: var(--font-family);
+    color: var(--text-color-primary);
+}
+
+.content-tag-2 {
+    display:inline-block;
+    padding: 12px 12px 30px 12px;
+    background-color: var(--box-social);
+    border-radius: 12px;
+    font: var(--font-family-1);
     color: var(--text-color-primary);
 }
 
