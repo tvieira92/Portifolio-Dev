@@ -31,12 +31,10 @@
 }
 
 body {
-    background-color: var(--box-social);
+    background-color: var(--bg-color);
     color: var(--text-color-primary);
     font: var(--text);
-    background-image: url(../assets/images/Background_Intro.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 
 }
 

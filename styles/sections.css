@@ -1,5 +1,12 @@
 #primary {
     text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292C34;
+    overflow: hidden;
     
     p {
         margin: auto;
@@ -22,6 +29,7 @@
 #work {
     padding-top: 72px;
     padding-bottom: 144px;
+    
     img {
         width: 306px;
         height: 156px;
@@ -37,15 +45,10 @@
         position: relative;
         padding: 5px;
     }
-
-    
-}
-
-#work {
     span {
+        text-align: left;
         display: flex;
-        position: relative;
-        
         
     }
+    
 }

@@ -18,6 +18,13 @@
     
 }
 
+.container-2 {
+    display: grid;
+    width: 1040px;
+    margin-inline: auto;
+    text-align: center;
+}
+
 .gap-24 {
     gap: 24px;
 }
@@ -25,7 +32,7 @@
 
 
 main {
-    margin-block: 120px;
+    /*margin-block: 120px;*/
     
     
     
@@ -33,6 +40,7 @@ main {
 }
 
 .profile {
+    margin-top: 120px;
     margin-bottom: 56px;
     
     
