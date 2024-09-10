@@ -70,3 +70,12 @@ img {
     font: var(--font-family-1);
     color: var(--text-color-primary);
 }
+
+.content-tag-4 {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: var(--box-social);
+    border-radius: 8px;
+    font: var(--font-family-1);
+    color: var(--text-color-primary);
+}

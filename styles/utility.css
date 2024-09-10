@@ -11,6 +11,10 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-rows {
+    grid-auto-flow: row;
+}
+
 .container {
     display: block;
     width: 1040px;
@@ -35,15 +39,29 @@
     
 }
 
+.container-4 {
+    display: grid;
+    width: 400px;
+    height: 68px;
+    margin: auto;
+    margin-inline: auto;
+    text-align: center;
+}
+
 
 .gap-24 {
     gap: 24px;
+}
+
+.gap-16 {
+    gap: 16px;
 }
 
 
 
 main {
     /*margin-block: 120px;*/
+    
     
     
     
